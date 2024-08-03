@@ -1,1 +1,78 @@
-echo "# 🚀 Frontend Developer Portfolio\n\nThis is a personal portfolio website for showcasing the work and skills of Vipul Katwal, a passionate Frontend Developer.\n\n## Table of Contents\n\n- [📖 About](#about)\n- [🛠 Technologies Used](#technologies-used)\n- [⚙️ Installation](#installation)\n- [🚀 Usage](#usage)\n- [📂 Project Structure](#project-structure)\n- [📜 License](#license)\n- [📞 Contact](#contact)\n\n## 📖 About\n\nThis portfolio website is designed to showcase my skills, projects, and experiences as a Frontend Developer. It includes sections for an introduction, about me, projects, and contact information.\n\n## 🛠 Technologies Used\n\n- 🌀 React.js\n- 🌈 Tailwind CSS\n- 🖥️ HTML5\n- 🎨 CSS3\n- 💻 JavaScript\n\n## ⚙️ Installation\n\n1. Clone the repository to your local machine:\n\n \`\`\`bash\n git clone https://github.com/vipulkatwal/portfolio.git\n \`\`\`\n\n2. Navigate to the project directory:\n\n \`\`\`bash\n cd portfolio\n \`\`\`\n\n3. Install the necessary dependencies:\n\n \`\`\`bash\n npm install\n \`\`\`\n\n## 🚀 Usage\n\n1. Start the development server:\n\n \`\`\`bash\n npm start\n \`\`\`\n\n2. Open your browser and navigate to \`http://localhost:3000\` to view the portfolio website.\n\n## 📂 Project Structure\n\nHere's a brief overview of the project structure:\n\n\`\`\`\nportfolio/\n├── public/\n│ ├── assets/\n│ │ ├── profile-img.jpg\n│ │ ├── hand-icon.png\n│ │ ├── linkedin-icon.png\n│ │ ├── github-icon.png\n│ │ └── twitter-icon.png\n│ └── index.html\n├── src/\n│ ├── components/\n│ │ ├── Header.js\n│ │ └── Navbar.js\n│ ├── assets/\n│ │ ├── profile-img.jpg\n│ │ ├── hand-icon.png\n│ │ ├── linkedin-icon.png\n│ │ ├── github-icon.png\n│ │ └── twitter-icon.png\n│ ├── App.js\n│ ├── index.css\n│ └── index.js\n├── .gitignore\n├── package.json\n└── README.md\n\`\`\`\n\n## 📜 License\n\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n\n## 📞 Contact\n\nYou can reach me at:\n\n- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vipulkatwal)\n- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vipulkatwal)\n- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vipulkatwal)\n\n---\n\n**Note:** This repository is private and is intended solely for personal use and sharing with authorized individuals.\n\nFeel free to edit and expand upon this template to better fit the specifics of your project." > README.md
+🚀 Frontend Developer Portfolio
+This is a personal portfolio website for showcasing the work and skills of Vipul Katwal, a passionate Frontend Developer.
+
+Table of Contents
+📖 About
+🛠 Technologies Used
+⚙️ Installation
+🚀 Usage
+📂 Project Structure
+📜 License
+📞 Contact
+📖 About
+This portfolio website is designed to showcase my skills, projects, and experiences as a Frontend Developer. It includes sections for an introduction, about me, projects, and contact information.
+
+🛠 Technologies Used
+🌀 React.js
+🌈 Tailwind CSS
+🖥️ HTML5
+🎨 CSS3
+💻 JavaScript
+⚙️ Installation
+Clone the repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/vipulkatwal/portfolio.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd portfolio
+Install the necessary dependencies:
+
+bash
+Copy code
+npm install
+🚀 Usage
+Start the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the portfolio website.
+
+📂 Project Structure
+Here's a brief overview of the project structure:
+
+portfolio/
+├── public/
+│ ├── assets/
+│ │ ├── profile-img.jpg
+│ │ ├── hand-icon.png
+│ │ ├── linkedin-icon.png
+│ │ ├── github-icon.png
+│ │ └── twitter-icon.png
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ └── Navbar.js
+│ ├── assets/
+│ │ ├── profile-img.jpg
+│ │ ├── hand-icon.png
+│ │ ├── linkedin-icon.png
+│ │ ├── github-icon.png
+│ │ └── twitter-icon.png
+│ ├── App.js
+│ ├── index.css
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📞 Contact
+You can reach me at:
