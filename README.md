@@ -1,50 +1,62 @@
-🚀 Frontend Developer Portfolio
-This is a personal portfolio website for showcasing the work and skills of Vipul Katwal, a passionate Frontend Developer.
+# 🚀 Frontend Developer Portfolio
 
-Table of Contents
-📖 About
-🛠 Technologies Used
-⚙️ Installation
-🚀 Usage
-📂 Project Structure
-📜 License
-📞 Contact
-📖 About
+## Table of Contents
+
+- [🚀 Frontend Developer Portfolio](#-frontend-developer-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [📖 About](#-about)
+  - [🛠 Technologies Used](#-technologies-used)
+  - [⚙️ Installation](#️-installation)
+  - [🚀 Usage](#-usage)
+  - [📂 Project Structure](#-project-structure)
+
+## 📖 About
+
 This portfolio website is designed to showcase my skills, projects, and experiences as a Frontend Developer. It includes sections for an introduction, about me, projects, and contact information.
 
-🛠 Technologies Used
-🌀 React.js
-🌈 Tailwind CSS
-🖥️ HTML5
-🎨 CSS3
-💻 JavaScript
-⚙️ Installation
-Clone the repository to your local machine:
+## 🛠 Technologies Used
 
-bash
-Copy code
-git clone https://github.com/vipulkatwal/portfolio.git
-Navigate to the project directory:
+- 🌀 React.js
+- 🌈 Tailwind CSS
+- 🖥️ HTML5
+- 🎨 CSS3
+- 💻 JavaScript
 
-bash
-Copy code
-cd portfolio
-Install the necessary dependencies:
+## ⚙️ Installation
 
-bash
-Copy code
-npm install
-🚀 Usage
-Start the development server:
+1. Clone the repository to your local machine:
 
-bash
-Copy code
-npm start
-Open your browser and navigate to http://localhost:3000 to view the portfolio website.
+   ```bash
+   git clone https://github.com/vipulkatwal/portfolio.git
+   ```
 
-📂 Project Structure
+2. Navigate to the project directory:
+
+   ```bash
+   cd portfolio
+   ```
+
+3. Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## 🚀 Usage
+
+1. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000` to view the portfolio website.
+
+## 📂 Project Structure
+
 Here's a brief overview of the project structure:
 
+```markdown
 portfolio/
 ├── public/
 │ ├── assets/
@@ -71,8 +83,19 @@ portfolio/
 ├── package.json
 └── README.md
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📜 License
 
-📞 Contact
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
 You can reach me at:
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vipulkatwal)
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vipulkatwal)
+- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vipulkatwal)
+
+---
+
+**Note:** This repository is private and is intended solely for personal use and sharing with authorized individuals.
+```
