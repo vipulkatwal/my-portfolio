@@ -34,13 +34,13 @@ const Footer = () => {
 				</div>
 			</div>
 			{/* Footer section with copyright and signature */}
-			<footer className="text-center sm:flex sm:items-center sm:justify-between border-t border-gray-400 mx-[10%] mt-12 py-4">
+			<footer className="text-center sm:flex sm:items-center sm:justify-between border-t border-gray-400 mx-4 sm:mx-[10%] mt-12 py-4">
 				{/* Left side of the footer */}
-				<div className="sm:w-1/3 text-left">
+				<div className="w-full sm:w-1/3 sm:text-left">
 					<p>© 2024 All rights reserved.</p>
 				</div>
 				{/* Center section with decorative image */}
-				<div className="flex items-center justify-center sm:w-1/3 my-4 sm:my-0">
+				<div className="w-full flex items-center justify-center sm:w-1/3 my-4 sm:my-0">
 					<img
 						src={cat_in_box}
 						alt="Cat in a Box"
@@ -48,7 +48,7 @@ const Footer = () => {
 					/>
 				</div>
 				{/* Right side of the footer */}
-				<div className="sm:w-1/3 text-right">
+				<div className="w-full sm:w-1/3 sm:text-right">
 					<p className="whitespace-nowrap">Made with ❤ by Vipul Katwal</p>
 				</div>
 			</footer>
