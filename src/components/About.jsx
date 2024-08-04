@@ -122,61 +122,69 @@ const About = () => {
 					</h4>
 
 					{/* List of skill icons */}
-					<ul className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-6 gap-2 mt-4">
+					<ul className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-2 mt-4">
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={html_icon} alt="HTML" className="w-5 sm:w-6 lg:w-7" />
+							<img src={html_icon} alt="HTML" className="w-6 sm:w-8 lg:w-10" />
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={css_icon} alt="CSS" className="w-5 sm:w-6 lg:w-7" />
+							<img src={css_icon} alt="CSS" className="w-6 sm:w-8 lg:w-10" />
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
 							<img
 								src={js_icon}
 								alt="JavaScript"
-								className="w-5 sm:w-6 lg:w-7"
+								className="w-6 sm:w-8 lg:w-10"
 							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={react_icon} alt="React" className="w-5 sm:w-6 lg:w-7" />
+							<img
+								src={react_icon}
+								alt="React"
+								className="w-6 sm:w-8 lg:w-10"
+							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
 							<img
 								src={tailwind_icon}
 								alt="Tailwind CSS"
-								className="w-5 sm:w-6 lg:w-7"
+								className="w-6 sm:w-8 lg:w-10"
 							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
 							<img
 								src={bootsrap_icon}
 								alt="Bootstrap"
-								className="w-5 sm:w-6 lg:w-7"
+								className="w-6 sm:w-8 lg:w-10"
 							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={mysql_icon} alt="MySQL" className="w-5 sm:w-6 lg:w-7" />
+							<img
+								src={mysql_icon}
+								alt="MySQL"
+								className="w-6 sm:w-8 lg:w-10"
+							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
 							<img
 								src={python_icon}
 								alt="Python"
-								className="w-5 sm:w-6 lg:w-7"
+								className="w-6 sm:w-8 lg:w-10"
 							/>
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={cpp_icon} alt="C++" className="w-5 sm:w-6 lg:w-7" />
+							<img src={cpp_icon} alt="C++" className="w-6 sm:w-8 lg:w-10" />
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={git} alt="git" className="w-5 sm:w-6 lg:w-7" />
+							<img src={git} alt="Git" className="w-6 sm:w-8 lg:w-10" />
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-							<img src={vscode} alt="VS Code" className="w-5 sm:w-6 lg:w-7" />
+							<img src={vscode} alt="VS Code" className="w-6 sm:w-8 lg:w-10" />
 						</li>
 						<li className="flex items-center justify-center w-10 sm:w-12 lg:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
 							<img
 								src={firebase}
 								alt="Firebase"
-								className="w-5 sm:w-6 lg:w-7"
+								className="w-6 sm:w-8 lg:w-10"
 							/>
 						</li>
 					</ul>
