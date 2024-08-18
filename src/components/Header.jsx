@@ -77,11 +77,7 @@ const Header = () => {
 
 			{/* Main headline */}
 			<h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
-<<<<<<< HEAD
 				frontend web developer.
-=======
-				frontend web developer based in India.
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
 			</h1>
 
 			{/* Short description */}

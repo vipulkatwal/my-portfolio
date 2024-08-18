@@ -34,15 +34,14 @@ const Work = () => {
 					</div>
 				</div>
 			</h4>
-<<<<<<< HEAD
-			{/* Main title for the projects section */}
-			<h2 className="text-center text-5xl font-Ovo">My Projects</h2>
-=======
 
 			{/* Main title for the projects section */}
 			<h2 className="text-center text-5xl font-Ovo">My Projects</h2>
 
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
+
+			{/* Main title for the projects section */}
+			<h2 className="text-center text-5xl font-Ovo">My Projects</h2>
+
 			{/* Introduction paragraph about the portfolio */}
 			<p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
 				Explore my portfolio to see a variety of projects that highlight my
