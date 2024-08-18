@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 // import send_icon from "../assets/send-icon.png";
 import right_arrow_blod from "../assets/right-arrow-bold.png";
@@ -11,13 +8,6 @@ import captionsImg from "../assets/quick-captions.png";
 import portfolioImg from "../assets/portfolio-bg.png";
 import geminiImg from "../assets/gemini-bg.png";
 import sushiImg from "../assets/sushi-bg.png";
-=======
-import React from "react";
-import send_icon from "../assets/send-icon.png";
-import right_arrow_blod from "../assets/right-arrow-bold.png";
-import right_arrow_blod_dark from "../assets/right-arrow-bold-dark.png";
-import cat_with_girl from "../assets/cat-with-girl.gif";
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
 
 const Work = () => {
 	return (
@@ -38,7 +28,6 @@ const Work = () => {
 			{/* Main title for the projects section */}
 			<h2 className="text-center text-5xl font-Ovo">My Projects</h2>
 
-
 			{/* Main title for the projects section */}
 			<h2 className="text-center text-5xl font-Ovo">My Projects</h2>
 
@@ -47,7 +36,6 @@ const Work = () => {
 				Explore my portfolio to see a variety of projects that highlight my
 				expertise in front-end development and my eye for detail.
 			</p>
-<<<<<<< HEAD
 			{/* Grid layout for displaying project cards */}
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10 px-5 font-headline">
 				{/* Project card: Captions Generator */}
@@ -69,28 +57,10 @@ const Work = () => {
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
 						</a>
-=======
-
-			{/* Grid layout for displaying project cards */}
-			<div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
-				{/* Project card: Google Gemini's Clone */}
-				<div className="aspect-square bg-[url('./assets/gemini-bg.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-					<div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-						<div>
-							<h2 className="font-semibold">Google Gemini's Clone</h2>
-							<p className="text-sm text-gray-700">Website</p>
-						</div>
-						<div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-							<a href="https://google-gemini-clone-seven.vercel.app/">
-								<img src={send_icon} alt="Send Icon" className="w-4" />
-							</a>
-						</div>
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
 					</div>
 				</div>
 
 				{/* Project card: Personal Portfolio */}
-<<<<<<< HEAD
 				<div
 					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${portfolioImg})` }}
@@ -129,24 +99,10 @@ const Work = () => {
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
 						</a>
-=======
-				<div className="aspect-square bg-[url('./assets/portfolio-bg.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-					<div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-						<div>
-							<h2 className="font-semibold">Personal Portfolio</h2>
-							<p className="text-sm text-gray-700">Website</p>
-						</div>
-						<div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-							<a href="https://zen-sushi-sable.vercel.app/">
-								<img src={send_icon} alt="Send Icon" className="w-4" />
-							</a>
-						</div>
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
 					</div>
 				</div>
 
 				{/* Project card: Japanese Themed Restaurant */}
-<<<<<<< HEAD
 				<div
 					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${sushiImg})` }}
@@ -167,38 +123,6 @@ const Work = () => {
 					</div>
 				</div>
 			</div>
-=======
-				<div className="aspect-square bg-[url('./assets/sushi-bg.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-					<div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-						<div>
-							<h2 className="font-semibold text-pretty">
-								Japanese Themed Restaurant
-							</h2>
-							<p className="text-sm text-gray-700">Website</p>
-						</div>
-						<div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-							<a href="https://zen-sushi-sable.vercel.app/">
-								<img src={send_icon} alt="Send Icon" className="w-4" />
-							</a>
-						</div>
-					</div>
-				</div>
-
-				{/* Project card: AI Video Generator */}
-				<div className="aspect-square bg-[url('./assets/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-					<div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-						<div>
-							<h2 className="font-semibold">AI Video Generator</h2>
-							<p className="text-sm text-gray-700">On Going (Web App)</p>
-						</div>
-						<div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-							<img src={send_icon} alt="" className="w-5" />
-						</div>
-					</div>
-				</div>
-			</div>
-
->>>>>>> 84410eab8c685027c01f194debe20fe0ba63d8fe
 			{/* Button to show more projects */}
 			<a
 				href="#"
