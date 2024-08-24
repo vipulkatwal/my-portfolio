@@ -97,9 +97,9 @@ const Header = () => {
 
 				{/* Button to download CV */}
 				<a
-					href="../../dev-icon.png"
+					href="https://drive.google.com/file/d/1lJJ95REdUoziPfTRvHPtB-k9q8KWI-XE/view?usp=sharing"
 					download
-					className="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent"
+					className="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent target=_blank"
 				>
 					Download CV <img src={download_icon} alt="" className="w-4" />
 				</a>

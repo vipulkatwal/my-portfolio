@@ -37,19 +37,19 @@ const Work = () => {
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10 px-5 font-headline">
 				{/* Project card: Captions Generator */}
 				<div
-					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
+					className="relative group bg-cover bg-center rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${captionsImg})` }}
 				>
-					<div className="absolute inset-0 bg-black/60 rounded-lg"></div>{" "}
+					<div className="absolute inset-0 bg-black/60 rounded-2xl"></div>{" "}
 					{/* Overlay */}
 					<div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-						<h2 className="text-white text-lg font-semibold mb-1">
+						<h2 className="text-white text-lg font-headline mb-1">
 							Captions Generator
 						</h2>
 						<p className="text-gray-300 text-sm mb-4">Website</p>
 						<a
 							href="https://quick-captions-generator.vercel.app/"
-							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-violet-500 via-pink-500 to-red-500 text-white font-semibold py-2 px-4 rounded-lg group-hover:from-pink-600 group-hover:to-red-600 transition"
+							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white font-display py-2 px-4 rounded-3xl group-hover:from-pink-600 group-hover:to-red-600 transition"
 						>
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
@@ -59,18 +59,18 @@ const Work = () => {
 
 				{/* Project card: Personal Portfolio */}
 				<div
-					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
+					className="relative group bg-cover bg-center rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${portfolioImg})` }}
 				>
-					<div className="absolute inset-0 bg-black/60 rounded-lg"></div>
+					<div className="absolute inset-0 bg-black/60 rounded-2xl"></div>
 					<div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-						<h2 className="text-white text-lg font-semibold mb-1">
+						<h2 className="text-white text-lg font-headline mb-1">
 							Personal Portfolio
 						</h2>
 						<p className="text-gray-300 text-sm mb-4">Website</p>
 						<a
 							href="https://vipulkatwal-portfolio.vercel.app/"
-							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-violet-500 via-pink-500 to-red-500 text-white font-semibold py-2 px-4 rounded-lg group-hover:from-pink-600 group-hover:to-red-600 transition"
+							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white font-display py-2 px-4 rounded-3xl group-hover:from-pink-600 group-hover:to-red-600 transition"
 						>
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
@@ -80,18 +80,18 @@ const Work = () => {
 
 				{/* Project card: Google Gemini's Clone */}
 				<div
-					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
+					className="relative group bg-cover bg-center rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${geminiImg})` }}
 				>
-					<div className="absolute inset-0 bg-black/60 rounded-lg"></div>
+					<div className="absolute inset-0 bg-black/60 rounded-2xl"></div>
 					<div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-						<h2 className="text-white text-lg font-semibold mb-1">
+						<h2 className="text-white text-lg font-headline mb-1">
 							Google Gemini's Clone
 						</h2>
 						<p className="text-gray-300 text-sm mb-4">Website</p>
 						<a
 							href="https://google-gemini-clone-seven.vercel.app/"
-							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-violet-500 via-pink-500 to-red-500 text-white font-semibold py-2 px-4 rounded-lg group-hover:from-pink-600 group-hover:to-red-600 transition"
+							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white font-display py-2 px-4 rounded-3xl group-hover:from-pink-600 group-hover:to-red-600 transition"
 						>
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
@@ -101,18 +101,18 @@ const Work = () => {
 
 				{/* Project card: Japanese Themed Restaurant */}
 				<div
-					className="relative group bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-500 h-56"
+					className="relative group bg-cover bg-center rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 h-56"
 					style={{ backgroundImage: `url(${sushiImg})` }}
 				>
-					<div className="absolute inset-0 bg-black/60 rounded-lg"></div>
+					<div className="absolute inset-0 bg-black/60 rounded-2xl"></div>
 					<div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-						<h2 className="text-white text-lg font-semibold mb-1">
+						<h2 className="text-white text-lg font-headline mb-1">
 							Japanese Themed Restaurant
 						</h2>
 						<p className="text-gray-300 text-sm mb-4">Website</p>
 						<a
 							href="https://zen-sushi-sable.vercel.app/"
-							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-violet-500 via-pink-500 to-red-500 text-white font-semibold py-2 px-4 rounded-lg group-hover:from-pink-600 group-hover:to-red-600 transition"
+							className="flex items-center justify-center space-x-2 bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white font-display py-2 px-4 rounded-3xl group-hover:from-pink-600 group-hover:to-red-600 transition"
 						>
 							<span>Visit Site</span>
 							<FiExternalLink className="w-4 h-4" />
@@ -120,6 +120,7 @@ const Work = () => {
 					</div>
 				</div>
 			</div>
+
 			{/* Button to show more projects */}
 			<a
 				href="#"

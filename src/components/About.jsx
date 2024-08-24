@@ -83,18 +83,47 @@ const About = () => {
 						</li>
 						<li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
 							{/* Icon and title for Education */}
-							<img src={edu_icon} alt="" className="w-7 mt-3 dark:hidden" />
-							<img
-								src={edu_icon_dark}
-								alt=""
-								className="w-7 mt-3 hidden dark:block"
-							/>
-
-							<h3 className="my-4 font-semibold text-gray-700 dark:text-white">
-								Education
-							</h3>
-							<p className="text-gray-600 text-sm dark:text-white/80">
-								Master of Computer Application (MCA){" "}
+							<div className="flex items-center">
+								<img
+									src={edu_icon}
+									alt="Education Icon"
+									className="w-7 mt-3 dark:hidden"
+								/>
+								<img
+									src={edu_icon_dark}
+									alt="Education Icon"
+									className="w-7 mt-3 hidden dark:block"
+								/>
+								<h3 className="ml-4 my-4 font-semibold text-gray-700 dark:text-white">
+									Education
+								</h3>
+							</div>
+							<p className="flex items-center text-gray-600 text-xs dark:text-white/80">
+								<img
+									src={edu_icon}
+									alt="University Icon"
+									className="w-5 mr-2"
+								/>
+								<img
+									src={edu_icon_dark}
+									alt="University Icon"
+									className="w-5 mr-2"
+								/>
+								Master of Computer Applications
+							</p>
+							<br />
+							<p className="flex items-center text-gray-600 text-xs dark:text-white/80">
+								<img
+									src={edu_icon}
+									alt="University Icon"
+									className="w-5 mr-2"
+								/>
+								<img
+									src={edu_icon_dark}
+									alt="University Icon"
+									className="w-5 mr-2"
+								/>
+								Bachelor of Computer Applications
 							</p>
 						</li>
 						<li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
