@@ -1,62 +1,66 @@
 # 🚀 Frontend Developer Portfolio
 
-## Table of Contents
 
-- [🚀 Frontend Developer Portfolio](#-frontend-developer-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [📖 About](#-about)
-  - [🛠 Technologies Used](#-technologies-used)
-  - [⚙️ Installation](#️-installation)
-  - [🚀 Usage](#-usage)
-  - [📂 Project Structure](#-project-structure)
+![Portfolio Screenshot](./public/my-portfolio.png)
 
-## 📖 About
+## 🚀 About
 
-This portfolio website is designed to showcase my skills, projects, and experiences as a Frontend Developer. It includes sections for an introduction, about me, projects, and contact information.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experiences in a sleek and interactive way. With a built-in light and dark mode, visitors can enjoy browsing my work in their preferred visual style.
 
-## 🛠 Technologies Used
+## ✨ Features
 
-- 🌀 React.js
-- 🌈 Tailwind CSS
-- 🖥️ HTML5
-- 🎨 CSS3
-- 💻 JavaScript
+- 💼 Showcase of projects and skills
+- 🌓 Toggle between light and dark mode
+- 📱 Fully responsive design
+- 🎨 Smooth animations and transitions
+- 🔗 Easy-to-use navigation
 
-## ⚙️ Installation
+## 🛠️ Built With
 
-1. Clone the repository to your local machine:
+- [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [Vite](https://vitejs.dev/) - Next generation frontend tooling
 
-   ```bash
-   git clone https://github.com/vipulkatwal/portfolio.git
+## 🏗️ Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or later)
+- npm (usually comes with Node.js)
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/vipulkatwal/my-portfolio.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd portfolio
+2. Navigate to the project directory
+   ```
+   cd my-portfolio
    ```
 
-3. Install the necessary dependencies:
-
-   ```bash
+3. Install dependencies
+   ```
    npm install
    ```
 
-## 🚀 Usage
-
-1. Start the development server:
-
-   ```bash
-   npm start
+4. Start the development server
+   ```
+   npm run dev
    ```
 
-2. Open your browser and navigate to `http://localhost:3000` to view the portfolio website.
+5. Open your browser and visit `http://localhost:5173`
+
+## 🖥️ Usage
+
+Navigate through the portfolio using the menu. Click on projects to view more details. Use the theme toggle to switch between light and dark mode.
 
 ## 📂 Project Structure
 
 Here's a brief overview of the project structure:
 
-```markdown
+```
 portfolio/
 ├── public/
 │ ├── assets/
@@ -82,20 +86,31 @@ portfolio/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-You can reach me at:
+Shoot me mail  - [www.vipulkatwal17@gmail.com](www.vipulkatwal17@gmail.com)
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vipulkatwal)
-- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vipulkatwal)
-- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vipulkatwal)
+Project Live Link: [Click Here]()
+
+## 🙏 Acknowledgements
+
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Unsplash](https://unsplash.com) for the images
+- [Vercel](https://vercel.com) for hosting
 
 ---
 
-**Note:** This repository is private and is intended solely for personal use and sharing with authorized individuals.
-```
+Don't forget to ⭐️ this repo if you like this portfolio!
+
+⭐️ From [Vipul Katwal](https://github.com/vipulkatwal)

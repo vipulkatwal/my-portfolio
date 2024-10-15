@@ -1,4 +1,3 @@
-import React from "react";
 import user_image from "../assets/user-image.gif";
 import code_icon from "../assets/code-icon.png";
 import code_icon_dark from "../assets/code-icon-dark.png";
